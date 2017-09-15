@@ -91,20 +91,8 @@ public class MinelifeCoreContainer extends DummyModContainer {
 
 
         NetworkRegistry.INSTANCE.register(this, this.getClass(), null, event.getASMHarvestedData());
-        System.out.println("FUCK");
 
     }
-
-    @Mod.EventHandler
-
-    public void preInit(FMLPreInitializationEvent evt)
-
-    {
-        System.out.println("CALLED");
-
-
-    }
-
 
     @Override
 
